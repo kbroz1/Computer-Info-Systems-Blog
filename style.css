@@ -25,6 +25,10 @@ h5 {
     margin:0;
 }
 
+li {
+    font-size: 18px;
+}
+
 .container1, .container2, .container3 {
     background-color: #080E08;
     color: #1D9453;
