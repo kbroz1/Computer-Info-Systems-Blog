@@ -59,3 +59,19 @@ li {
     font-size: 25px;
     color: white;
 }
+
+footer {
+    text-align:center;
+    color: white;
+    background-color: #040904;
+    display:flex;
+    justify-content: center;
+    text-decoration: none;
+    margin-top: 20px;
+    
+}
+
+footer img {
+    margin-left: 5px;
+    filter:grayscale(100%)
+}
