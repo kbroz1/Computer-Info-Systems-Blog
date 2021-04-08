@@ -2,7 +2,7 @@ body {
     background-image: url(images/markus-spiske-iar-afB0QQw-unsplash.jpg);
     background-size: cover;
     background-attachment: fixed;
-    font-family: 'Teko', sans-serif;
+    font-family: 'Titillium Web', sans-serif;
 }
 
 
@@ -21,9 +21,14 @@ h4 {
 h5 {
     font-size:28px;
     line-height:5px;
-    color: #7D7B7B;
+    color: #88ee88;
     margin:0;
 }
+
+.container4 h5 {
+    font-size:23px;
+}
+
 
 li {
     font-size: 22px;
@@ -74,4 +79,36 @@ footer {
 footer img {
     margin-left: 5px;
     filter:grayscale(100%)
+}
+
+table, th, td {
+    border: 1px solid ivory;
+    border-collapse: collapse;
+  }
+
+th, td {
+    padding:5px;
+}
+
+th {
+    background-color:ivory;
+    color: #040904;
+    font-size:20px;
+}
+
+td {
+    color: ivory;
+    font-size:18px;
+    text-align:center;
+    width: 300px;
+    font-weight: -500;
+}
+
+.td1 {
+    font-size: 30px;
+    width:100px;
+}
+
+tr:hover {
+    background-color: green;
 }
